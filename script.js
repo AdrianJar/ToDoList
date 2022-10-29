@@ -18,11 +18,20 @@
                 <li 
                 class="${task.done ? " list__taskDone" : ""}"
                 >
+                <button class="js-remove">Usuń</button>
                     ${task.content}
                 </li>
             `;
         }
         document.querySelector(".js-tasks").innerHTML = htmlString;
+
+        const removeButtons = document.querySelectorAll(".js-remove");
+        
+        removeButtons.forEach((removeButtons, index) => {
+        removeButtons.addEventListener("click" , () => {
+           removeTask(index);
+        });
+        });
     };
 
     const addNewTask = (newTaskContent) => {
@@ -30,6 +39,11 @@
             content: newTaskContent,
         });
 
+        render();
+    };
+
+    const removeTask = (index) => {
+        tasks.splice(index , 1);
         render();
     };
 
@@ -44,7 +58,7 @@
         }
 
         addNewTask(newTaskContent);
-    }
+    };
 
     const init = () => {
         render();
