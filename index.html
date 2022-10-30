@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista do zrobienia</title>
     <link
       rel="stylesheet"
@@ -22,14 +22,23 @@
     <!-- choose one -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <link href="CSS/style.css" rel="stylesheet">
-</head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/container.css" rel="stylesheet" />
+    <link href="CSS/taskList.css" rel="stylesheet" />
+  </head>
 
-<body>
-    <form class="js-form">
-        <input class="js-newTask">
-        <button class="js-button"> Dodaj zadanie </button>
-    </form>
-    <ul class="js-tasks"></ul>
-</body>
+  <body class="body">
+    <div class="container">
+      <form class="container__form js-form">
+        <input class="js-newTask" />
+        <button class="js-button">Dodaj zadanie</button>
+      </form>
+      <div class="tasks">
+        <ul class="js-tasks"></ul>
+      </div>
+    </div>
+  </body>
+  <script>
+    feather.replace();
+  </script>
 </html>
