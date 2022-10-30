@@ -60,7 +60,7 @@
                 <li 
                 class="${task.done ? " list__taskDone" : ""} tasks__listItem"
                 >
-                    <button class="js-done"><i data-feather="circle"></i></button>
+                    <button class="js-done"><i data-feather="check"></i></button>
                     ${task.content}
                     <button class="js-remove">Usuń</button>
                 </li>
