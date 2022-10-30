@@ -1,0 +1,23 @@
+.list {
+  padding: 1px;
+}
+
+ul li:hover {
+  background-color: rgb(126, 127, 127);
+}
+
+.list__taskItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+}
+
+.list__taskButton {
+  border: none;
+  background-color: transparent;
+}
+
+.list__taskDone {
+  text-decoration: line-through;
+}

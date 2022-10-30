@@ -24,21 +24,28 @@
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <link href="CSS/style.css" rel="stylesheet" />
     <link href="CSS/container.css" rel="stylesheet" />
-    <link href="CSS/taskList.css" rel="stylesheet" />
+    <link href="CSS/listTask.css" rel="stylesheet" />
+    <link href="CSS/form.css" rel="stylesheet" />
   </head>
 
   <body class="body">
+    <div class="container--top">
+      <h1 class="header">Lista zadań</h1>
+    </div>
     <div class="container">
-      <form class="container__form js-form">
-        <input class="js-newTask" />
-        <button class="js-button">Dodaj zadanie</button>
+      <h2>Dodaj nowe zadanie</h2>
+      <form class="js-form">
+        <input
+          type="text"
+          placeholder="Tutaj wpisz zadanie do zrobienia"
+          class="form__input js-newTask"
+        />
+        <button class="form__button js-button">Dodaj zadanie</button>
       </form>
-      <div class="tasks">
-        <ul class="js-tasks"></ul>
-      </div>
+    </div>
+    <div class="container">
+      <h2>Lista do zrobienia</h2>
+      <ul class="list js-tasks"></ul>
     </div>
   </body>
-  <script>
-    feather.replace();
-  </script>
 </html>

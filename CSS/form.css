@@ -1,0 +1,14 @@
+.form__input {
+  max-width: 450px;
+  width: 100%;
+  margin-right: 15px;
+  border: 2px solid;
+  padding: 5px;
+}
+
+.form__button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+}
