@@ -12,9 +12,9 @@ This is a *To Do List* project.
 ## 📌Description:
 
 - This project contains:
-    - adding new task, 
-    - marking done task
-    - removing task.
+    - Adding new task, 
+    - Marking done task
+    - Removing task.
 
 ## 🎮Demo
 
