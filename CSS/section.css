@@ -4,7 +4,7 @@
   border-radius: 20px;
   margin: auto;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 10px 0px 10px 10px;
 }
 
 
@@ -12,4 +12,9 @@
   max-width: 750px;
   border-radius: 20px;
   margin: 0px auto;
+}
+
+.section__header{
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 10px;
 }
