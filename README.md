@@ -3,18 +3,10 @@ This is a *To Do List* project.
 
 ## 📑 Table of contents:
 
-1. [📌 Description](#description)
 1. [🎮 Demo](#demo)
+1. [📌 Description](#description)
 2. [👀 Preview](#preview)
 3. [🛠 Technologies](#technologies)
-
-
-## 📌Description:
-
-- This project contains:
-    - Adding new task, 
-    - Marking done task
-    - Removing task.
 
 ## 🎮Demo
 
