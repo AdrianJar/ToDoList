@@ -1,7 +1,5 @@
 {
     const tasks = [
-        {content:1232131}
-        
     ];
 
     const addNewTask = (newTaskContent) => {
@@ -20,6 +18,7 @@
 
     const toggleTaskDone = (taskIndex) => {
         tasks[taskIndex].done = !tasks[taskIndex].done;
+
         render();
     };
 
@@ -58,7 +57,8 @@
                     <button class="list__taskButton list__taskButton--remove js-remove">🗑️</button>
                 </li>
             `;
-        }
+        };
+        
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
         bindEvents();
